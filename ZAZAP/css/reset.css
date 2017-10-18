@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, hr, h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+img{
+    border:none;
+    display: block;
+}
+
+.clearfloat:after{
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height:0;
+}
+
+.container{
+    position: relative;
+    margin:0 auto;
+    width: 1100px;
+    height:100px;
+}
+
+

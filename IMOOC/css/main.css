@@ -1,0 +1,167 @@
+*{
+	padding: 0;
+	margin:0 auto;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+.container{
+	max-width: 1000px;
+	min-width: 1000px;
+}
+
+.clearf{
+	clear:both;
+}
+
+.floatr{
+	float: right;
+}
+
+.floatl{
+	float: left;
+}
+
+
+/* 顶部导航栏 */
+.top-nav {
+	height: 70px;
+	background: white;
+	margin-bottom: 5px;
+}
+
+.top-nav img{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.top-nav span{
+	display: inline-block;
+	width: 100px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+}
+
+.top-nav span.on{
+	background: #be3948;
+}
+
+/*  轮播区  */
+.slide{
+	height: 310px;
+}
+
+/*  新闻区  */
+.newscontent{
+	height: 600px;
+}
+
+.newscontent .rollingnews{
+	background: #111;
+	color: white;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 30px;
+}
+
+.newscontent .rollingnews span{
+	display: inline-block;
+	background: #be3948;
+	height: 40px;
+	padding:0 20px;
+	margin-right: 20px;
+	line-height: 40px;
+}
+
+.newscontent .hot{
+	margin: 30px 0 0 5px;
+	width: 330px;
+	height: 160px;
+	text-align: center;
+	font-weight: bold;
+	cursor: pointer; 
+	border: 1px solid #eee;
+}
+
+.newscontent .hot:first-child{
+	margin-left: 0px;
+}
+
+/*  最底部的主要内容区  */
+.maincontent .subcontent{
+	width: 330px;
+	height: 320px;
+	margin:30px 0 0 5px;
+	border: 1px solid #eee;
+}
+
+.maincontent .subcontent:first-child{
+	margin-left: 0;
+}
+
+.maincontent .subcontent .title{
+	width: 330px;
+	height: 50px;
+	background-color: #be3948;
+}
+
+.maincontent .title span{
+	color: #fff;
+	display: inline-block;
+	margin-left: 20px;
+	line-height: 50px;
+}
+
+.maincontent .newlist .articlebox{
+	margin-top: 10px;
+	height: 75px;
+	border-bottom: 1px solid #000;
+	font-size: .93em;
+}
+
+.maincontent .newlist .articlebox:last-child{
+	border-bottom:none;
+}
+
+.maincontent .newlist .datebox{
+	margin: 0 5px;
+	display: inline-block;
+	float: left;
+	height: 50px;
+	width: 43px;
+	padding: 5px;
+	background: #be3948;
+	border-radius:5px;
+	text-align: center;
+	color: #fff;
+	font-size: 1.1em;
+}
+
+.maincontent .newlist p{
+	font-weight: bold;
+	margin-bottom: 5px;: 
+}
+
+.maincontent .newlist h4{
+	font-size: .93em;
+}
+
+.maincontent .mainactivies{
+	text-align: center;
+}
+
+.maincontent .mainactivies img{
+	margin-top:10px;
+	width: 260px;
+}
+
+.maincontent .contactcard{
+	margin:5px 5px 20px 5px;
+}
+
+/*  footer  */
+.footer {
+	height: 50px;
+	background: #ccc;
+}
