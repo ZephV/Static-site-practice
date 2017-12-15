@@ -137,3 +137,50 @@
     background: url("../images/v-icon.png") no-repeat;
 }
 
+.index-panel{
+    margin-top: 200px;
+}
+
+.index-panel-header .title{
+    float: left;
+    font-size: 20px;
+    color: #3b3b3b;
+    line-height: 15px;
+}
+
+.index-panel-header .line{
+    float: left;
+    margin-top: 7px;
+    margin-left: 19px;
+    width: 200px;
+    border-top:1px solid #e5e3e3;
+}
+
+.index-panel-header .btn-group{
+    float: right;
+}
+
+.index-panel-header .btn{
+    float: left;
+    margin-left: 11px;
+    height: 9px;
+    width: 9px;
+    background: #dedede;
+    border-radius:50%;
+}
+.index-panel-header .active{
+    background: #9b9b9b;
+}
+
+.index-panel-body{
+    margin-top: 79px;
+}
+
+.index-food-list{
+    overflow: hidden;
+}
+
+.index-food-list .item{
+    width: 231px;
+    margin-right: 60px;
+}
